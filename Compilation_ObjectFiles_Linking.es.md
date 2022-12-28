@@ -2,6 +2,7 @@
 
 >NOTA: Aunque los ejemplos que se van a utilizar en esta guia son para el lenguaje C, puede ser extrapolado a otros lenguajes de programación que dispongan de compilador.
 
+## 1. Descripción general
 Hay (en la mayoría de los casos, descontando el código interpretado) dos etapas para pasar del código fuente (lo que se escribe, p. ej. archivos *.c*) al código ejecutable (lo que se ejecuta en el PC, p .ej. archivos *.exe* o *.out*):
 
   1. Primero esta la **compilación**, que convierte el codigo fuente, archivos escritos en un lenguaje concreto; en archivos objeto (*.o*), archivos binarios entendibles para el tipo de ordenado/microchip que se haya elegido.
@@ -9,6 +10,9 @@ Hay (en la mayoría de los casos, descontando el código interpretado) dos etapa
 
 ![Flow de compilación para el lenguaje C](img/CompilationFlowForC.png)
 
+## 2. Compilación en profundidad
+
+## 3. Librerías estáticas *vs* dinámicas
 
 
 # Referencias
@@ -18,4 +22,5 @@ Hay (en la mayoría de los casos, descontando el código interpretado) dos etapa
   - https://stackoverflow.com/questions/311882/what-do-statically-linked-and-dynamically-linked-mean/311889#311889
   - https://es.wikipedia.org/wiki/Ar_(Unix)
   - https://es.wikipedia.org/wiki/C%C3%B3digo_objeto
+  - https://www.gnu.org/software/libtool/
 

@@ -2,12 +2,18 @@
 
 >NOTE: Although the examples that are going to be used in this guide are for the C language, it can be extrapolated to other programming languages that have a compiler.
 
+## 1. Overview
 There are (in most cases, discounting interpreted code) two stages in getting from source code (what you write, e.g. *.c* files) to executable code (what you run on PC, e.g. *.exe* or *.out*):
 
   1. First there is the **compilation**, which converts the source code, files written in a specific language; in object files (*.o*), binary files understandable for the type of computer/microchip that has been chosen.
   2. Then, linking, is what combines object modules together to form an executable.
 
 ![Compilation flow for c language](img/CompilationFlowForC.png)
+
+## 2. Compilation expanded
+
+
+## 3. Statically *vs* Dynamically linked libraries
 
 # Referencias
   - https://www.howtogeek.com/427086/how-to-use-linuxs-ar-command-to-create-static-libraries/
@@ -16,4 +22,5 @@ There are (in most cases, discounting interpreted code) two stages in getting fr
   - https://stackoverflow.com/questions/311882/what-do-statically-linked-and-dynamically-linked-mean/311889#311889
   - https://es.wikipedia.org/wiki/Ar_(Unix)
   - https://es.wikipedia.org/wiki/C%C3%B3digo_objeto
+  - https://www.gnu.org/software/libtool/
 
